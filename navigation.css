@@ -1,0 +1,40 @@
+nav {
+  
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  height: 80px;
+  backdrop-filter: blur(10px);
+  /* position: fixed;
+  margin-top: -100px; */
+}
+#Nav-Name
+{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 25px;
+  font-weight: 550;
+  color: white;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  margin-top: -35px;
+}
+.Navigation-Buttons
+{
+  width: 100px;
+  height: 40px;
+  margin-top: 23px;
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  color: rgb(183, 183, 183);
+  /* position: absolute; */
+  cursor: none;
+}
+.Navigation-Buttons:hover
+{
+  cursor: none;
+  color: rgb(252, 252, 252);
+}
+#Home
+{
+  margin-left: 880px;
+}

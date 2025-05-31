@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #0f0c29; /* Base dark color */
+  background-image: 
+    radial-gradient(circle at 75% 40%, rgba(255, 0, 100, 1.0), transparent 20%),
+    radial-gradient(circle at 13% 80%, rgba(0, 255, 255, 1.0), transparent 15%),
+    linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  background-blend-mode: screen;
+  background-size: cover;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#Name-P1
+{
+   font-family: 'Open Sans', sans-serif;
+   /* font-weight: bold; */
+  margin-left: 100px;
+  color: white;
+  margin-top: -370px;
+  font-size: 30px;
+  animation: blink 0.75s step-end infinite;
+}
+#Name-P2
+{
+  font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+   margin-left: 100px;
+   margin-top: -35px;
+   font-size: 40px;
+   animation: blink 0.75s step-end infinite;
+}
+#Bio-P3
+{
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 100px;
+  margin-top: -30px;
+  font-size: 23px;
+     animation: blink 0.75s step-end infinite;
+   
+}
+ @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+.Bio
+{
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 100px;
+  margin-top: -16px;
+  animation: blink 0.75s step-end infinite;
+}
+#Bio-P4
+{
+  margin-left: 100px;
+  margin-top: 7px;
+}
+#Border-color
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin-left: 860px;
+    margin-top: 100px;
+
+    background-image: linear-gradient(360deg, rgba(0, 255, 255, 1.0),rgb(217, 33, 64));
+}
+#Photo
+{
+    width: 390px;
+    height: 390px;
+    margin-top: 5px;
+    margin-left: 5.5px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    
+}
+#MY-Photo
+{
+    width: 375px;
+    height: 375px;
+    margin-left: 7px;
+    margin-top: 7px;
+    border-radius: 50%;
+}
+#MY-Photo:hover
+{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 390px;
+    height: 390px;
+    transition: 0.5s;
+}
+
+#Home
+{
+  margin-left: 880px;
+  color: white;
+
+}
+
+.Logo-Buttons
+{
+  background-color: transparent;
+  
+  border: none;
+  margin-top: 15px;
+  margin-left: 25px;
+  cursor: none;
+  display: none;
+   
+}
+.Logo-Buttons:hover
+{
+
+  box-shadow: 0 0 15px 4px rgba(14, 4, 125, 0.9); /* Aqua glow */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+#LinkedIn
+{
+  margin-left: 190px;
+  width: 25.6px;
+  height: 27px;
+  margin-top: 10px;
+}
+#Linkedin_img
+{
+  margin-left: -8.5px;
+  margin-top: -3px;
+}
+#Git-Hub
+{
+  border-radius: 50%;
+  width: 28px;
+  height: 30px;
+ 
+  
+  
+}
+#Git-Img
+{
+
+  margin-left: -8.5px;
+  margin-top: -2.5px;
+  width: 33px;
+}
+#Gmail
+{
+  width: 29px;
+  height: 23px;
+}
+#Gmail-Img
+{
+  margin-left: -7px;
+  margin-top: -5px;
+}
+.Logo-IMG
+{
+  width: 30px;
+   /* animation: blink 0.75s step-end infinite; */
+}
+#Download
+{
+  margin-left: 300px;
+  margin-top: 40px;
+  width: 190px;
+  font-weight: bold;
+  font-size: 14px;
+  background-image: linear-gradient(90deg,rgb(188, 58, 205),rgb(231, 153, 195));
+  height: 50px;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: none;
+  display: none;
+   /* animation: blink 0.75s step-end infinite; */
+}
+#Download:hover
+{
+  box-shadow: 0 0 15px 4px rgba(184, 181, 219, 0.9); /* Aqua glow */
+  transform: scale(1.05); /* Slight zoom effect */
+}

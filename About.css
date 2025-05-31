@@ -1,0 +1,244 @@
+#About-Body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #1c044f, #502b87); 
+      color: white;
+    }
+
+    .about-section {
+      background: linear-gradient(to right, #1c044f, #502b87); 
+      padding: 60px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 90vh;
+      margin-top: -50px;
+    }
+
+    .about-container {
+      max-width: 850px;
+      width: 100%;
+      background-color: rgba(28, 4, 79, 0.9); 
+      border-radius: 16px;
+      padding: 40px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .about-container h1 {
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+
+    .about-line {
+      border-left: 5px solid;
+      padding-left: 15px;
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .orange { border-color: #ff9800; }
+    .purple { border-color: #ba68c8; }
+    .blue   { border-color: #03a9f4; }
+#About-Me
+{
+    margin-left: 250px;
+    
+}
+    #Footer
+    {
+        margin-top: 20px;
+    }
+
+  
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px; 
+  margin-top: -25px;
+
+}
+
+.info-box {
+  width: 170px; 
+  height: 130px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 20px 10px;
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+   transition: all 0.3s ease;
+   /* cursor: pointer; */
+}
+
+.icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-box h3 {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+.info-box p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffc;
+}
+
+.info-box:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.15); 
+
+}
+.Logos
+{
+  width: 25px;
+}
+.Logos-2
+{
+     display: none;
+      position: absolute;
+      margin-left: 85px;
+      width: 25px;
+       transform: translateX(-50%);
+}
+.info-box:hover .Logos-2
+{
+    display: block;
+}
+.info-box:hover .Logos
+{
+    display: none;
+}
+.info-box:hover h3
+{
+
+     margin-top: 42px;
+  font-size: 24px;
+
+}
+
+
+ h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      margin-left: 430px;
+    }
+
+    h2 {
+      font-weight: normal;
+      color: #cccccc;
+      margin-bottom: 40px;
+      margin-left: 380px;
+    }
+
+    .skill-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1000px;
+      margin-left: 170px;
+    }
+
+    .skill {
+      text-align: center;
+      backdrop-filter: blur(6px);
+      padding: 25px;
+      border-radius: 15px;
+      width: 200px;                                                         
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      flex: 1 1 calc(25% - 30px); 
+
+      
+    }
+     .skill:hover
+     {
+         transform: translateY(-1px);
+  background: rgba(241, 241, 241, 0.10);
+         
+     }
+
+    .progress-circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: conic-gradient(rgb(23, 23, 211) var(--progress), #2f2f52 0%);
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 15px;
+      position: relative;
+    }
+
+    .progress-circle::before {
+      content: "";
+      position: absolute;
+      width: 85px;
+      height: 85px;
+      background: linear-gradient(to right, #1c044f, #502b87);
+      border-radius: 50%;
+    }
+
+    .progress-value {
+      position: relative;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .skill-name {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 900px) {
+      .skill {
+        flex: 1 1 calc(50% - 30px); 
+      }
+    }
+
+    @media (max-width: 600px) {
+      .skill {
+        flex: 1 1 100%; 
+      }
+    }
+
+    #MYName-Footer
+    {
+        margin-left: 0px;
+    }
+
+    #Developer
+    {
+        margin-top: -20px;
+    }
+
+    .footer-icons {
+  display: flex;
+  gap: 25px;
+}
+
+.footer-icons a {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #93c5fd; 
+  transform: scale(1.1);
+}
+    #About-Button
+    {
+      color: white;
+    }
+
