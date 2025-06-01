@@ -141,3 +141,45 @@ nav
 {
     width: 100%;
 }
+
+.popup-message {
+  /* remove display: none */
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px white;
+  z-index: 1000;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  user-select: none;
+
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  /* cursor: none; */
+
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.popup-message.show {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  /* cursor: none; */
+}
+
+.popup-close {
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  color: red;
+  font-size: 22px;
+  user-select: none;
+  cursor: none;
+}

@@ -47,15 +47,21 @@ I'm always interested in new opportunities and exciting projects. Let's discuss 
     </div>
   </div>
 
-  <div class="contact-form">
+  <div class="contact-form" id="contactForm">
     <h2>Send Me a Message</h2>
-    <form>
+    <form id="form">
       <input type="text" placeholder="Your Name" required>
       <input type="email" placeholder="Your Email" required>
       <textarea rows="4" placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
   </div>
+</div>
+
+<!-- Popup message -->
+<div id="popupMessage" class="popup-message">
+  Thank you for your message! I will get back to you soon.
+  <span id="popupClose" class="popup-close">&times;</span>
 </div>
 
 <!-- Simple Chatbot UI
@@ -91,7 +97,32 @@ I'm always interested in new opportunities and exciting projects. Let's discuss 
 
 <!-- Click burst animation -->
 <div class="click-burst" id="click-burst"></div>
+<script>
+ const form = document.getElementById('contactForm');
+const popup = document.getElementById('popupMessage');
+const closeBtn = document.getElementById('popupClose');
+const form2 = document.getElementById('form'); 
 
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  // Show popup
+  popup.classList.add('show');
+
+  form.reset();
+
+  // Hide popup after 3 seconds smoothly
+  setTimeout(() => {
+    popup.classList.remove('show');
+  }, 3000);
+});
+
+closeBtn.addEventListener('click', () => {
+  popup.classList.remove('show');
+  form2.reset(); 
+});
+
+</script>
 
 
 </body>
