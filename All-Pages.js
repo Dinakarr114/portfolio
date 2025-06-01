@@ -2,7 +2,7 @@ const homeButton= document.getElementById("Home");
 
 homeButton.addEventListener("click",()=>
 {
-    window.open("./Home-Page.html","_self")
+    window.open("./index.html","_self")
 })
 
 const AboutButton= document.getElementById("About-Button");
