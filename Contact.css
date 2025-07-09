@@ -185,117 +185,96 @@ nav
 }
 
 
-@media (max-width: 768px) 
-{
+@media (max-width: 768px) {
   html, body {
     overflow-x: hidden;
   }
-  #Contact-Heading
-  {
-    font-size: 20px;
-  }
-  #Contact-Para
-  {
-    margin-top: 5px;
-    margin-left: 5px;
-    font-size: 10px;
-  }
-  .contact-container
-  {
-    width: 400px;
-    height: 250px;
-  }
-  .contact-info h2
-  {
-    font-size: 14px;
-    margin-top: -18px;
-  }
-   .contact-info p
-   {
-    font-size: 11px;
-   }
-   .contact-info #email
-   {
-    margin-top: -5px;
-    
-   }
-   .contact-info #E
-   {
-    margin-top: -15px;
-    margin-left: -30px;
-    width: 10px;
-   }
-   .contact-info #phone
-   {
-    margin-top: -8px;
-   }
-   .contact-info #P
-   {
-     margin-left: -30px;
-     margin-top: -15px;
-      width: 10px;
-   }
-   .contact-info #link
-   {
-    margin-top: -8px;
-   }
 
-   .contact-info #L
-   {
-     margin-left: -30px;
-     margin-top: -15px;
-      width: 10px;
-   }
-   #hh2
-   {
-    font-size: 11px;
-    margin-top: -30px;
-    margin-left: -30px;
-   }
-   #name,#Emaill
-   {
-    margin-left: -30px;
-   width: 130px;
-   height: 5px;
-   }
-   #msg
-   {
-    height: 30px;
-    margin-left: -30px;
-   }
-   #Send-B
-   {
-    width: 80px;
-    height: 20px ;
-    font-size: 8px;
+  #Contact-Heading {
+    font-size: 20px;
     text-align: center;
-    
-   }
-   #name::placeholder
-   {
-    font-size: 9px;
-   }
-   #Emaill::placeholder
-   {
-    font-size: 9px;
-   }
-   #msg::placeholder
-   {
-    font-size: 9px;
-   }
-   #Footer
-   {
-    margin-top: 110px;
-   }
-   #popupMessage
-   {
-    width: 260px;
-    height: 20px;
-    font-size: 10px;
-   }
-   .popup-close 
-   {
-    font-size: 18px;
-    margin-left: 270px;
-   }
+  }
+
+  #Contact-Para {
+    margin: 5px 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .contact-info h2,
+  #hh2 {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .contact-info p {
+    font-size: 13px;
+  }
+
+  .info-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  .info-box i {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .contact-form {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  #name,
+  #Emaill,
+  #msg {
+    width: 100%;
+    padding: 6px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  #msg {
+    height: 60px;
+  }
+
+  #Send-B {
+    width: 100%;
+    padding: 6px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  #name::placeholder,
+  #Emaill::placeholder,
+  #msg::placeholder {
+    font-size: 11px;
+  }
+
+  #Footer {
+    margin-top: 60px;
+  }
+
+  #popupMessage {
+    width: 90%;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .popup-close {
+    font-size: 16px;
+    margin-left: 10px;
+  }
 }
