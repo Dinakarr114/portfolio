@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  #Border-color {
+    margin: 30px auto;
+    width: 250px;
+    height: 250px;
+  }
+
+  #Photo {
+    width: 240px;
+    height: 240px;
+    margin: 5px auto;
+  }
+
+  #MY-Photo {
+    width: 230px;
+    height: 230px;
+    margin: 5px;
+  }
+
+  #Name-P1, #Name-P2, #Bio-P3, .Bio {
+    margin-left: 20px;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .Navigation-Buttons {
+    font-size: 14px;
+    margin: 8px 10px;
+  }
+
+  #Download {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .Logo-Buttons {
+    display: inline-block;
+    margin: 10px 15px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  #Name-P1, #Name-P2 {
+    font-size: 20px;
+    word-break: break-word;
+    line-height: 1.2;
+  }
+}

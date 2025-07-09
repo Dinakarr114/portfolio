@@ -58,3 +58,42 @@
     margin: 0 auto;
   }
 }
+  
+@media (max-width: 768px) 
+{
+ #Footer
+   {
+    width: 100%;
+    height: 65px;
+  
+  }
+  .footer h2 {
+  font-size: 12px;
+  margin-top: -20px ;
+  margin-left: -300px;
+}
+.footer p
+{
+   font-size: 10px;
+  margin-top: 0px ;
+  margin-left: -300px;
+
+}
+.footer-icons
+{
+  width: 0px;
+  margin-left: -120px;
+  margin-top: -20px;
+
+}
+#rights
+{
+  margin-left: -30px;
+}
+#All
+{
+  margin-left: 0px;
+}
+}
+
+

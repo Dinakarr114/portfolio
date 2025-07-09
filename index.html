@@ -3,14 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
   <title>Portfolio</title>
  
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="./Home-Page.css">
   <link rel="stylesheet" href="./Footer.css">
-  <link rel="stylesheet" href="./Image-floating.css">
+  <!-- <link rel="stylesheet" href="./Image-floating.css"> -->
   <link rel="stylesheet" href="./navigation.css">
   <link rel="stylesheet" href="./Cursor.css">
+  <!-- <link rel="stylesheet" href="./Phone-Margin.css"> -->
 
 <script>
 (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="_3ZqJa4CPrUl3_WfmzPcH";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
@@ -21,7 +24,7 @@
 <script src="./Cursor.js" defer></script>
 </head>
 <body>
-  <nav>
+  <nav id="navigation">
   
     <button id="Home" class="Navigation-Buttons">Home</button>
     <button id="About-Button" class="Navigation-Buttons">About</button>
@@ -52,14 +55,14 @@
  <button class="Logo-Buttons" id="Gmail">
   <img src="./PHOTOS/gmail-2.png" alt="Image 3" class="Logo-IMG" id="Gmail-Img">
  </button><br>
- <a href="Resume.pdf" download="My_Resume.pdf">
+ <a href="Resume.pdf" download="Resume.pdf">
  <button id="Download">Download Resume</button>
  </a>
 
-  <img src="./PHOTOS/Coding-Symbols1.png" class="floating-image" />
+  <!-- <img src="./PHOTOS/Coding-Symbols1.png" class="floating-image" />
   <img src="./PHOTOS/Coding-Symbols2.png" class="floating-image" />
   <img src="./PHOTOS/Coding-Symbols3.png" class="floating-image" />
-   <img src="./PHOTOS/Coding-Symbols4.png" class="floating-image" />
+   <img src="./PHOTOS/Coding-Symbols4.png" class="floating-image" /> -->
     <!-- <img src="../assets/PHOTOS/Coding-Symbols5.png" class="floating-image" /> -->
      <!-- <img src="../assets/PHOTOS/Coding-Symbols6.png" class="floating-image" /> -->
 
@@ -74,12 +77,12 @@
       <p>Full-Stack Developer</p>
     </div>
     <div class="footer-icons">
-      <a href="https://instagram.com/dinakarr__" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://instagram.com/dinakarr___" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="https://wa.me/917981231289" target="_blank"><i class="fab fa-whatsapp"></i></a>
       <a href="https://twitter.com/Dinakarrrr" target="_blank"><i class="fab fa-twitter"></i></a>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 Dinakar Buchinelly. All rights reserved.</p>
+      <p id="rights">© 2025 Dinakar Buchinelly. All rights reserved.</p>
     </div>
   </div>
 </footer>

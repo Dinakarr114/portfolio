@@ -105,3 +105,86 @@
   margin-top: 10px;
   cursor: none;
 }
+
+
+@media (max-width: 768px) 
+{
+  html, body {
+    overflow-x: hidden;
+  }
+  #Heading
+  {
+    font-size: 18px;
+  }
+  .projects-container
+  {
+    /* background-color: red; */
+    height: 430px;
+
+  }
+  .project-card
+  {
+    width: 250px;
+    height: 140px;
+  }
+  #Project-card1
+  {
+    width: 185px;
+    height: 117px;
+    margin-left: -40px;
+  }
+  #Project-card2
+  {
+   width: 185px;
+    height: 117px;
+    margin-right: -35px;
+  }
+  #Project-card3
+  {
+   width: 185px;
+    height: 117px;
+    margin-left: -40px;
+    margin-top: -20PX;
+  }
+  #Project-card4
+  {
+   width: 185px;
+    height: 117px;
+    margin-right: -35px;
+     margin-top: -20PX;
+  }
+  #Project-card5
+  {
+   width: 185px;
+    height: 117px;
+    margin-left: -40px;
+     margin-top: -20PX;
+  }
+  #Project-card6
+  {
+   width: 185px;
+    height: 117px;
+    margin-right: -35px;
+     margin-top: -20PX;
+  }
+  .overlay h2
+  {
+    margin-top: 50px;
+    font-size: 12px;
+  }
+  .overlay p
+  {
+    font-size: 9px;
+  }
+  .overlay #smart
+  {
+    margin-top: 100px;
+  }
+  
+  .footer
+  {
+    margin-top: -100px;
+  }
+  
+ 
+}

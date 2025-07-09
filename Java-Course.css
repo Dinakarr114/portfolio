@@ -111,3 +111,59 @@
 {
   margin-left: 880px;
 }
+
+
+@media (max-width: 768px)
+ {
+
+  nav 
+  {
+    /* background-color:blue; */
+    position: relative;
+    height: 60px;
+  }
+  .Navigation-Buttons {
+    font-size: 10px;
+    padding: 6px 12px;
+    margin-top: -160px;
+    /* background-color: aquamarine; */
+    width: 60px;
+    height: 20px;
+    margin-left: 35px;
+    
+  }
+  #Nav-Name {
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: -45px;
+    margin-left: -140px;
+  }
+  #Home
+  {
+
+    margin-top: 35px;
+    margin-left: 15px;
+    /* background-color: black; */
+    position: relative;
+  }
+  #h1
+  {
+    font-size: 17px;
+  }
+  .course-card
+  {
+    width: 300px;
+    height: 50px;
+  }
+  #h2,#h3,#h4,#h5,#h6,#h7,#h8,#h9
+  {
+    font-size: 15px;
+  }
+  #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8
+  {
+    font-size: 10px;
+  }
+ 
+}

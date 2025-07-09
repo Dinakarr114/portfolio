@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
     { id: "Bio-P3", text: "Java Full-Stack Developer | CSE Graduate |" },
     { id: "Bio-P4", text: "I'm a Software Engineer with experience in Java Full Stack development." },
     { id: "Bio-P5", text: "I enjoy creating user-friendly web applications by combining frontend and backend skills." },
-    { id: "Bio-P6", text: "I focus on writing clean, efficient code and turning ideas into practical, real-world solutions" },
+    { id: "Bio-P6", text: "I focus on writing clean, efficient code and turning ideas into practical, real-world solutions." },
     { id: "Bio-P7", text: "that provide value and enhance user experiences." }
   ];
 
@@ -75,7 +75,7 @@ LinkedIn.addEventListener("click",()=>
 })
 
  document.getElementById("Gmail").addEventListener("click", function() {
-    window.location.href = "mailto:buchinellydinakar040@gmail.com";
+    window.location.href = "mailto:buchinellydinakar02@gmail.com";
   });
 
    document.getElementById("Git-Hub").addEventListener("click", function() {

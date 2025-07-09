@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background-color: #0f0c29; /* Base dark color */
+  background-color: #0f0c29; 
   background-image: 
     radial-gradient(circle at 75% 40%, rgba(255, 0, 100, 1.0), transparent 20%),
     radial-gradient(circle at 13% 80%, rgba(0, 255, 255, 1.0), transparent 15%),
@@ -12,7 +12,6 @@ body {
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 #Name-P1
 {
@@ -185,4 +184,124 @@ body {
 {
   box-shadow: 0 0 15px 4px rgba(184, 181, 219, 0.9); /* Aqua glow */
   transform: scale(1.05); /* Slight zoom effect */
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* Fix navigation stacking and spacing */
+  
+  .Navigation-Buttons {
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-top: -180px;
+    
+  }
+
+  
+
+  /* Adjust profile image and circular background */
+  #Border-color {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px auto;
+    margin-top: 30px;
+  }
+
+  #Photo {
+    width: 140px;
+    height: 150px;
+    margin: 0 auto;
+    margin-left: 4.5px;
+    position: relative;
+  }
+
+  #MY-Photo {
+    width: 140px;
+    height: 140px;
+    margin: 7px auto;
+    margin-top: 5px;
+   
+  }
+
+  #MY-Photo:hover {
+    margin-top: 4px;
+    width: 140px;
+    height: 140px;
+   
+  }
+
+  /* Center all bio text */
+  #Name-P1,
+  #Name-P2,
+  #Bio-P3,
+  .Bio {
+    margin: 10px auto;
+    text-align: center;
+    max-width: 90vw;
+    line-height: 1.5;
+    font-size: 10px;
+  }
+  #Bio-P4
+  {
+    margin-left: 10px;
+   
+  }
+
+  #Name-P1 {
+    font-size: 18px;
+  }
+
+  #Name-P2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  #Bio-P3,
+  .Bio {
+    font-size: 14px;
+  }
+
+  /* Social icons */
+  .Logo-Buttons {
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+    
+  }
+  #LinkedIn
+  {
+    margin-left: 50px;
+  }
+
+  .Logo-IMG {
+    width: 25px;
+    height: 25px;
+  }
+
+  /* Resume download button */
+  #Download {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    font-size: 14px;
+    padding: 12px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+
+  /* Adjust floating images if needed */
+  .floating-image {
+    width: 40px !important;
+    height: auto !important;
+  }
+  
 }

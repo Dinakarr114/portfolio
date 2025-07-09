@@ -161,3 +161,141 @@ body {
 {
   margin-top: 40px;
 }
+
+@media (max-width: 768px) 
+{
+  html, body {
+    overflow-x: hidden;
+  }
+  #h1
+  {
+    font-size: 15px;
+    margin-top: -60px;
+  }
+  #p1
+  {
+    font-size: 12px;
+  }
+  header
+  {
+    height: 0px;
+  
+  }
+  #Heading1
+  {
+    font-size: 19px;
+    margin-top: -45px;
+    margin-left: 90px;
+  }
+  #Brief
+  {
+    font-size: 12px;
+    margin-top: -5px;
+  }
+  #h2
+  {
+    font-size: 16px;
+    margin-top: -35px;
+  }
+  
+  #main-B
+  {
+    width: 250px;
+    margin-left: 70px;
+    font-size: 12px;
+     text-align: center;
+   
+  }
+  #B1
+  {
+    margin-left: -40px;
+   
+    width: 90px;
+    height: 30px;
+  }
+   #B2
+  {
+    margin-left: -40px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+  }
+   #B3
+  {
+    margin-left: -40px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+  }
+   #B4
+  {
+    margin-left: -40px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+  }
+   #B5
+  {
+    margin-left: -40px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+  }
+   #B6
+  {
+    margin-left: -40px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+  }
+   #B7
+  {
+    margin-left: -40px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+  }
+   #B8
+  {
+    margin-left: -40px;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+  }
+  #h3
+  {
+    font-size: 18px;
+    margin-top: -35px;
+  }
+  #img1
+  {
+    width: 160px;
+  }
+  #img2
+  {
+    width: 160px;
+    
+  }
+  #img3
+  {
+    width: 160px;
+  }
+  #h4
+  {
+    font-size: 18px;
+    margin-top: -35px;
+  }
+  #contact
+  {
+    width: 140px;
+    font-size: 10px;
+  }
+  #footer
+  {
+    height: 10px;
+    margin-top: -100px;
+    font-size: 16px;
+   
+  }
+  
+}

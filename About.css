@@ -242,3 +242,234 @@
       color: white;
     }
 
+@media (max-width: 768px) 
+{
+   html, body {
+    overflow-x: hidden;
+  }
+  .about-section
+  {
+    width: 90%;
+
+  }
+  #About-Me
+  {
+    margin-left: 80px;
+    font-size: 20px;
+
+  }
+  #orangee,#purplee,#blue
+  {
+    font-size: 12px;
+    /* background-color:red; */
+  }
+  .info-box
+  {
+    
+      width: 150px;
+      margin-left: 0px;
+    height: 50px;
+    
+   
+  }
+  .icon
+  {
+    margin-top: -16px;
+    width: 50px;
+    margin-left: 50px;
+  }
+  .Logos
+  {
+    width: 17px;
+    
+  }
+  .info-box h3
+  {
+    margin-top: -10px;
+    font-size: 18px;
+    
+  }
+  .info-box p
+  {
+
+    font-size: 12px;
+  }
+  .info-box:hover h3
+{
+
+     margin-top: 35px;
+  font-size: 18px;
+
+}
+.info-box:hover .Logos-2
+{
+    display: block;
+    width: 17px;
+}
+.info-box:hover .icon
+  {
+     width: 50px;
+    margin-left:   -8.5px;
+    margin-top: -7.5px;
+  }
+  .info-box:hover h3
+  {
+    margin-top: 25px;
+    font-size: 18px;
+    
+  }
+  .info-box:hover p
+  {
+
+    font-size: 12px;
+  }
+  #Skills
+  {
+    margin-left: 100px;
+    font-size: 22px;
+  }
+  #Tech
+  {
+    margin-left: 49px;
+    font-size: 14px;
+  }
+  .skill
+  {
+   
+   width: 160px;
+   height: 40px;
+   position: relative;
+    /* background-color: red; */
+    
+  }
+  #skill1
+  {
+    width: 50px;
+  }
+  #Skill2
+  {
+    margin-left: 360px;
+    margin-top: -120px;
+    width: 60px;
+  }
+  #skill3
+  {
+    margin-top: -30px;
+  }
+ 
+ 
+  #Skill4
+  {
+    width: 50px;
+    margin-left: 360px;
+    margin-top: -120px;
+  }
+  #skill5
+  {
+    width: 50px;
+    margin-top: -26px;
+  }
+  #skill6,#skill8,#skill10
+  {
+
+    margin-left: 360px;
+    width: 50px;
+  }
+  #skill6
+  {
+    margin-top: -120px;
+  }
+  #skill7
+  {
+    margin-top: -26px;
+  }
+  #skill8
+  {
+    margin-top: -120px;
+  }
+  #skill9
+  {
+    margin-top: -26px;
+  }
+  #skill10
+  {
+    margin-top: -120px;
+  }
+  #skill11
+  {
+    width: 50px;
+    margin-top: -26px;
+  }
+  .skill-wrapper
+  {
+    /* background-color: black; */
+    width: 50px;
+    margin-left: 70px;
+    max-width: 750px;
+  }
+  .progress-circle
+  {
+    /* background-color:chartreuse; */
+    margin-top: -20px;
+    width: 50px;
+    height: 50px;
+  
+   
+  }
+  .progress-circle::before {
+      content: "";
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(to right, #1c044f, #502b87);
+      border-radius: 50%;
+    }
+
+  .progress-value
+  {
+    
+   font-size: 12px;
+   text-align: center;
+   margin-left: 5px;
+  }
+  .skill-name
+
+  {
+    /* background-color: #ff9800; */
+    font-size: 12px;
+    margin-top: -5px;
+  }
+  #mechine
+  {
+    font-size: 11px;
+    width: 90px;
+    margin-top: -4px;
+    margin-left: -20px;
+  }
+  #html
+  {
+
+    font-size: 12px;
+    width: 90px;
+    margin-left: -20px;
+  }
+  #rest
+  {
+    width: 90px;
+    margin-left: -20px;
+  }
+  #MYName-Footer
+  {
+    margin-left: -280px;
+  }
+  #Developer
+  {
+    margin-top: -36px;
+    margin-left: -280px;
+  }
+  .footer-bottom
+  {
+    margin-left: 265px;
+  }
+  
+}
