@@ -190,95 +190,57 @@ nav
     overflow-x: hidden;
   }
 
-   body {
-    background: yellow !important;
-  }
-
   #Contact-Heading {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
   }
 
   #Contact-Para {
-    margin: 5px 10px;
-    font-size: 12px;
+    font-size: 14px;
+    margin: 10px;
     text-align: center;
   }
 
   .contact-container {
+    display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 10px;
     align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
   }
 
-  .contact-info h2,
+  .contact-info, .contact-form {
+    width: 90%;
+  }
+
   #hh2 {
     font-size: 16px;
-    margin: 10px 0;
-    text-align: center;
+    margin-top: 10px;
   }
 
-  .contact-info p {
-    font-size: 13px;
-  }
-
-  .info-box {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
-  }
-
-  .info-box i {
+  #name, #Emaill, #msg {
+    width: 100%;
     font-size: 14px;
-    margin-left: 5px;
-  }
-
-  .contact-form {
-    width: 100%;
-    max-width: 90%;
-  }
-
-  #name,
-  #Emaill,
-  #msg {
-    width: 100%;
-    padding: 6px;
-    font-size: 12px;
-    margin-bottom: 10px;
-  }
-
-  #msg {
-    height: 60px;
   }
 
   #Send-B {
     width: 100%;
-    padding: 6px;
-    font-size: 12px;
-    cursor: pointer;
-  }
-
-  #name::placeholder,
-  #Emaill::placeholder,
-  #msg::placeholder {
-    font-size: 11px;
-  }
-
-  #Footer {
-    margin-top: 60px;
+    font-size: 14px;
+    padding: 8px;
   }
 
   #popupMessage {
-    width: 90%;
     font-size: 12px;
-    padding: 10px;
-    text-align: center;
+    width: 90%;
   }
 
   .popup-close {
     font-size: 16px;
     margin-left: 10px;
+  }
+
+  #Footer {
+    margin-top: 60px;
   }
 }
