@@ -118,55 +118,62 @@
   }
   .projects-container
   {
-    /* background-color: red; */
     height: 430px;
+    /* background-color: red; */
+    
 
   }
   .project-card
   {
-    width: 250px;
-    height: 140px;
+    width: 220px;
+    height: 120px;
+   
+
   }
   #Project-card1
   {
-    width: 185px;
+     width: 180px;
     height: 117px;
-    margin-left: -40px;
+    margin-left: -45px;
+    
   }
   #Project-card2
   {
-   width: 185px;
-    height: 117px;
-    margin-right: -35px;
+    width: 172px;
+    height: 114px;
+    margin-right: -45px;
   }
   #Project-card3
   {
-   width: 185px;
+    width: 180px;
     height: 117px;
-    margin-left: -40px;
+    margin-left: -45px;
     margin-top: -20PX;
   }
   #Project-card4
   {
-   width: 185px;
-    height: 117px;
-    margin-right: -35px;
+   width: 172px;
+    height: 114px;
+    margin-right: -45px;
      margin-top: -20PX;
   }
   #Project-card5
   {
-   width: 185px;
+   width: 180px;
     height: 117px;
-    margin-left: -40px;
+    margin-left: -45px;
      margin-top: -20PX;
   }
   #Project-card6
   {
-   width: 185px;
-    height: 117px;
-    margin-right: -35px;
+    width: 172px;
+    height: 114px;
+    margin-right: -45px;
      margin-top: -20PX;
   }
+  .project-card:hover {
+  transform: scale(1.03);
+}
   .overlay h2
   {
     margin-top: 50px;

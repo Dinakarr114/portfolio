@@ -296,6 +296,17 @@
       left: 20px !important;
       right: auto !important;
     }
+     #Name
+{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 10px;
+  font-weight: 550;
+  color: white;
+  letter-spacing: 1px;
+  margin-left: 0px;
+  margin-top: -48px;
+  
+}
   }
 
   @media (max-width: 768px) 
