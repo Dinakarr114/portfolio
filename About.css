@@ -2,12 +2,12 @@
       margin: 0;
       padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #1c044f, #502b87); 
+        background: linear-gradient(to right, #000000, #1c044f, #0e0121);
       color: white;
     }
 
     .about-section {
-      background: linear-gradient(to right, #1c044f, #502b87); 
+       background: linear-gradient(to right, #000000, #1c044f, #0e0121);
       padding: 60px 20px;
       display: flex;
       justify-content: center;
@@ -157,6 +157,12 @@
       width: 200px;                                                         
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
       flex: 1 1 calc(25% - 30px); 
+         background: rgba(255, 255, 255, 0.08); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+   
 
       
     }
@@ -468,9 +474,9 @@
     margin-top: -36px;
     margin-left: -280px;
   }
-  .footer-bottom
+  /* .footer-bottom
   {
     margin-left: 265px;
   }
-  
+   */
 }

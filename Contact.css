@@ -1,7 +1,8 @@
 #Contact-Body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #1c044f, #502b87);
+  /* background: linear-gradient(to right, #1c044f, #502b87); */
+   background: linear-gradient(to right, #000000, #1c044f, #0e0121);
   color: white;
   display: flex;
   flex-direction: column;
@@ -122,11 +123,7 @@
   color: white;
 }
 
-#Footer
-{
-    margin-top: 40px;
-    width: 96.5%;
-}
+
 #Contact-Heading
 {
     font-size: 60px;
@@ -144,6 +141,7 @@ nav
 {
     width: 100%;
 }
+
 
  /* remove display: none */
 
@@ -275,12 +273,14 @@ nav
 
 
 .footer {
-  background: linear-gradient(to right, #5b21b6, #db2777, #3730a3); 
+ background: linear-gradient(to right, #111111, #1c1c1c);
   color: white;
   padding: 40px 20px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 80px;
+  margin-top: 40px;
+    width: 96.5%;
 }
 
 .footer-content {
@@ -303,19 +303,23 @@ nav
 .footer-icons {
   display: flex;
   gap: 25px;
+  margin-left: 500px;
+  margin-top: -100px;
+ 
  
 }
 
 .footer-icons a {
   color: white;
-  font-size: 24px;
+   font-size: 30px;
   transition: color 0.3s ease, transform 0.3s ease;
   cursor: none;
 }
 
 .footer-icons a:hover {
-  color: #93c5fd;
-  transform: scale(1.1);
+  color: blue;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px blue;
 }
 
 
@@ -323,6 +327,14 @@ nav
   font-size: 0.85rem;
   color: #ccc;
 }
+
+#All
+{
+    margin-left: -1000px;
+  margin-top:20px;
+}
+
+
 
 /* FOOTER CSS FOR DEVICE  */
 

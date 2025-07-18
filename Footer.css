@@ -1,6 +1,8 @@
 
 .footer {
-  background: linear-gradient(to right, #5b21b6, #db2777, #3730a3); 
+  
+  background: linear-gradient(to right, #111111, #1c1c1c);
+  /* background-color: black; */
   color: white;
   padding: 40px 20px;
   text-align: center;
@@ -28,25 +30,37 @@
 .footer-icons {
   display: flex;
   gap: 25px;
+  margin-left: 450px;
+  margin-top: -50px;
+ 
  
 }
 
 .footer-icons a {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   transition: color 0.3s ease, transform 0.3s ease;
   cursor: none;
 }
 
 .footer-icons a:hover {
-  color: #93c5fd;
-  transform: scale(1.1);
+  color: blue;
+  transform: scale(1.2);
+  text-shadow: 0 0 10px blue;
 }
 
 
 .footer-bottom {
   font-size: 0.85rem;
   color: #ccc;
+  /* background-color: red; */
+  height: 80px;
+ 
+}
+#rights
+{
+  margin-left: -1000px;
+  margin-top:70px;
 }
 
 
@@ -64,7 +78,7 @@
  #Footer
    {
     width: 100%;
-    height: 65px;
+    /* height: 65px; */
   
   }
   .footer h2 {
@@ -82,18 +96,21 @@
 .footer-icons
 {
   width: 0px;
-  margin-left: -120px;
-  margin-top: -20px;
+  margin-left: -140px;
+  margin-top: 0px;
 
 }
 #rights
 {
   margin-left: -30px;
+  margin-top: 0px;
 }
 #All
 {
-  margin-left: 0px;
+  margin-left: -30px;
+  margin-top: 0px;
 }
+
 }
 
 

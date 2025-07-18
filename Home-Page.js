@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
   const textLines = [
-    { id: "Name-P1", text: "Hello It's Me" },
+    { id: "Name-P1", text: "Hello, I am" },
     { id: "Name-P2", text: "Dinakar Buchinelly" },
     { id: "Bio-P3", text: "Java Full-Stack Developer | CSE Graduate |" },
     { id: "Bio-P4", text: "I'm a Software Engineer with experience in Java Full Stack development." },
